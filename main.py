@@ -3,7 +3,7 @@ from pydantic import BaseModel, Field
 from typing import Optional, List
 import math
 
-app = FastAPI(title="QuickBite Food Delivery")
+app = FastAPI()
 
 # ==========================================
 # IN-MEMORY DATABASE 
